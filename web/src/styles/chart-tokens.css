@@ -1,0 +1,20 @@
+/* Chart poles on the field-kit palette.
+   pine = flow samples. ochre = naive Gaussian. ink = true means. */
+:root {
+  --chart-flow: var(--good);
+  --chart-baseline: var(--amber);
+  --chart-truth: var(--fg-hi);
+  --chart-hold: var(--steel);
+
+  --chart-1: var(--chart-flow);
+  --chart-2: var(--chart-baseline);
+  --chart-3: var(--chart-truth);
+  --chart-4: var(--chart-hold);
+  --chart-5: var(--bad);
+
+  --chart-background: var(--bg-sunk);
+  --chart-foreground: var(--fg-hi);
+  --chart-foreground-muted: var(--fg-low);
+  --chart-label: var(--fg-low);
+  --chart-grid: var(--line-hairline);
+}
